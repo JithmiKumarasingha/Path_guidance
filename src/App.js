@@ -3,7 +3,6 @@ import "./App.css";
 import PathGuider from "./PathGuider";
 
 function App() {
-  const [currentPage, setCurrentPage] = useState("home");
 
   const renderPage = () => {
     return <PathGuider />;
